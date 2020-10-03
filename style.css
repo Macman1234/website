@@ -24,7 +24,7 @@ body {
 .tower {
     display: flex;
     justify-content: center;
-    height: 60%
+    height: 50%
 }
 
 img {

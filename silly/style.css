@@ -1,27 +1,23 @@
-.left {
-    float: left;
+.centerpic {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.total {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .mid {
-    margin: auto;
-}
-
-.right {
-    float: right;
-}
-
-.centerpic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    width: 80%
 }
 
 .maintext {
     margin: auto;
     text-align: center;
     font-family: "Comic Sans MS", sans;
-    width: 100%;
     border: 3px solid green;
     padding: 10px;
 }
