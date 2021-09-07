@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Comfortaa-Light';
-    src: url('Comfortaa-Regular.woff') format('woff'),
-        url('Comfortaa-Regular.ttf') format('truetype');
+    src: url('Comfortaa-Regular.woff') format('woff'), url('Comfortaa-Regular.ttf') format('truetype');
 }
 
 .textContainer {
@@ -23,12 +22,17 @@ body {
 
 .tower {
     display: flex;
-    justify-content: center;
-    height: 50%
+    height: 60%;
+    justify-content: space-evenly;
 }
 
 img {
     max-width: 20%;
     object-fit: cover;
     object-position: center top
+}
+
+img:hover {
+    transform: translate(0px, -80px);
+    height: 470%;
 }
