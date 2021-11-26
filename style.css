@@ -31,8 +31,3 @@ img {
     object-fit: cover;
     object-position: center top
 }
-
-img:hover {
-    transform: translate(0px, -80px);
-    height: 470%;
-}
