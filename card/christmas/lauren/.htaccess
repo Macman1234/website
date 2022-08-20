@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Lauren's Card"
-
-AuthUserFile "/users/m/m/mmansfie/passwords"
-Require user lauren
