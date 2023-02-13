@@ -1,33 +1,46 @@
 @font-face {
     font-family: 'Comfortaa-Light';
-    src: url('Comfortaa-Regular.woff') format('woff'), url('Comfortaa-Regular.ttf') format('truetype');
+    src: url('Comfortaa-Light.ttf') format('truetype');
+    font-family: 'Comfortaa-Regular';
+    src: url('Comfortaa-Regular.ttf') format('truetype');
 }
 
-.textContainer {
-    align-items: center;
-    text-align: center;
+.outer-content-container {
     display: flex;
-    font-family: "Comfortaa-Light", sans-serif;
+    flex-direction: column;
+    width: 80vw;
+    height: 70vh;
+}
+
+.navbar {
+    height: 30%;
+    display: flex;
+    align-content: flex-end;
+}
+
+.main-content-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
     justify-content: center;
-    height: 40%;
-    font-size: 2em
+    background-color: #ffd84b;
+    border-radius: 5px;
+    border: 5px solid black;
+    font-family: "Comfortaa-Regular", sans-serif;
+    font-size: 3em;
+    height: 80%
+}
+
+.navitem {
+    margin-right: 50px
 }
 
 body {
-    height: 100%;
     background-color: #F5C20F;
-    margin-bottom: 0;
-    margin-top: 0
-}
-
-.tower {
     display: flex;
-    height: 60%;
-    justify-content: space-evenly;
-}
-
-img {
-    max-width: 100%;
-    object-fit: cover;
-    object-position: center top
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 0;
+    margin-top: 0;
 }
